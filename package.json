@@ -6,11 +6,39 @@
     "test": "npx nodemon test/index.js"
   },
   "type":"module",
-  "keywords": [],
+  "keywords": [
+    "hyperproc",
+    "pipeline",
+    "async-pipeline",
+    "state",
+    "state-management",
+    "workflow",
+    "orchestration",
+    "dataflow",
+    "etl",
+    "functional",
+    "composition",
+    "chainable",
+    "middleware",
+    "error-handling",
+    "error-recovery",
+    "branching",
+    "concurrency",
+    "batch-processing",
+    "plain-object"
+  ],
   "author": "mastergray",
   "license": "MIT",
   "description": "Chainable, async pipeline over an explicit state object",
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastergray/hyperproc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mastergray/hyperproc/issues"
+  },
+  "homepage": "https://github.com/mastergray/hyperproc#readme"
 }
