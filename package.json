@@ -1,0 +1,16 @@
+{
+  "name": "hyperproc",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nodemon test/index.js"
+  },
+  "type":"module",
+  "keywords": [],
+  "author": "mastergray",
+  "license": "MIT",
+  "description": "Chainable, async pipeline over an explicit state object",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
