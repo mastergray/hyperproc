@@ -186,7 +186,7 @@ await etl.run({}); // => { raw:'...', doc:{a:1,b:2}, sum:3 }
 * Reusing the same instance **accumulates ops**; treat an instance as a small program.
 * In a chain, the parent continues after the child completes; subsequent parent ops see the child’s mutations/replacement.
 * To assert on thrown errors in tests, use a bubbling policy (`.onError(e => { throw e; })` or a subclass like `HyperSubProc`).
-* Docs were created by API. Because that's the world we live in now...
+* Docs were created by AI. Because that's the world we live in now...
 
 ---
 
